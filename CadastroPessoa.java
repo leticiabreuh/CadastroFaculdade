@@ -1,0 +1,12 @@
+private String nome;
+private String dataNascimento;
+private String email;
+private String tipoPessoa;
+private String rua;
+private String bairro;
+private String pais;
+private String estado;
+private int cep;
+private int cepf;
+private int matricula;
+private int numeroCelular;
