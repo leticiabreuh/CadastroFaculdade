@@ -1,4 +1,4 @@
-/*public class CadastroProfessor extends Pessoa{
+public class Professor extends Pessoa{
     //Atributos
     private String formacaoAcademica;
     private String experienciaProfissional;
@@ -14,22 +14,22 @@
         return this.experienciaProfissional;
     }
 
-    public void getAreaAtuacao(String areaAtuacao){
+    public String  getAreaAtuacao(){
        return this.areaAtuacao;
 
     }
 
     //SET
     public void setFormacaoAcademica(String formacaoAcademica){
-      this.formacaoAcademica;
+      this.formacaoAcademica=formacaoAcademica;
     }
 
     public void setExperienciaProfissional(String experienciaProfissional){
-        this.experienciaProfissional;
+        this.experienciaProfissional=experienciaProfissional;
     }
 
     public void setAreaAtuacao(String areaAtuacao){
-        this.areaAtuacao;
+        this.areaAtuacao=areaAtuacao;
 
     }
 
@@ -43,7 +43,7 @@
     }
     @Override
     public void comoFoi(){
-    System.out.printl("A aula que eu dei, foi muito boa");
+    System.out.println("A aula que eu dei, foi muito boa");
     }
 
-}*/
+}
