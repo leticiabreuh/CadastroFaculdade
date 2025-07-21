@@ -12,11 +12,11 @@ public class SistemaFaculdade{
          pessoa.setPais("Brasil");
          pessoa.setEstado("Santa Catarina");
          pessoa.setCep("1654164");
-         pessoa.setCpf(1313156);
+         pessoa.setCpf("1313156");
          pessoa.setNumeroCelular("+55 (47) 5146546");
 
         pessoa.pessoaFazendo();
-        pessoa.aiFazer();
+        pessoa.vaiFazer();
         pessoa.comoFoi();
 
         String mensagem = "\nNome: "+pessoa.getNome()+
@@ -30,7 +30,7 @@ public class SistemaFaculdade{
                           "\nCpf: "+pessoa.getCpf()+
                           "\nNumero de celular: "+pessoa.getNumeroCelular();
     
-    System.out.printl("Pessoa: "+mensagem);
+    System.out.println("Pessoa: "+mensagem);
 
    
 

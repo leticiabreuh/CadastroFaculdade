@@ -8,8 +8,8 @@ private String rua;
 private String bairro;
 private String pais;
 private String estado;
-private int cep;
-private int cpf;
+private String cep;
+private String cpf;
 private String numeroCelular;
 
 //Metodos
@@ -42,7 +42,7 @@ public String getEstado(){
 public String getCep(){
     return cep;
 }
-public int getCpf(){
+public String getCpf(){
     return cpf;
 }
 public String getNumeroCelular(){
@@ -60,7 +60,7 @@ public void setEmail(String email){
   this.email=email;
 }
 public void setTipoPessoa(String tipoPessoa){
-     this.tipoPessoa=pessoa;
+     this.tipoPessoa=tipoPessoa;
 }
 
 public void setRua(String rua){
@@ -78,8 +78,8 @@ public void setEstado(String estado){
 public void setCep(String cep){
      this.cep=cep;
 }
-public void setCpf(int cpf){
-    return this.cpf;
+public void setCpf(String cpf){
+     this.cpf=cpf;
 }
 public void setNumeroCelular(String numeroCelular){
    this.numeroCelular=numeroCelular;
@@ -96,7 +96,7 @@ public void vaiFazer(){
 }
 
 public void comoFoi(){
-System.out.printl("A aula foi muito boa");
+System.out.println("A aula foi muito boa");
 }
 
 
