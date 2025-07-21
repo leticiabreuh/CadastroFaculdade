@@ -57,11 +57,11 @@ public class Aluno extends Pessoa{
 
     @Override
     public void pessoaFazendo(){
-    System.out.println("Estou na aula da faculdade");
+    System.out.println("Estou assistindo a aula da faculdade");
     }
     @Override
     public void vaiFazer(){
-    System.out.println("Estou indo para a faculdade estudar");
+    System.out.println("Estou indo para a faculdade fazer a prova");
     }
     @Override
     public void comoFoi(){
