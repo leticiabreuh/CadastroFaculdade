@@ -34,9 +34,6 @@ public class SistemaFaculdade{
         pessoa.vaiFazer();
         pessoa.comoFoi();
 
-        
-
-
         System.out.println(" ");
 
         /*Professor */
@@ -78,6 +75,54 @@ public class SistemaFaculdade{
         professor.vaiFazer();
         professor.comoFoi();
 
+         System.out.println(" ");
+
+
+        /*Aluno */
+        Aluno aluno = new Aluno();
+         aluno.setNome("Laura");
+         aluno.setDataNascimento("07/03/2005");
+         aluno.setEmail("teste@gmail.com");
+         aluno.setTipoPessoa("Aluno/Professor");
+         aluno.setRua("Uruguaiana");
+         aluno.setBairro("Jardim Iririu");
+         aluno.setPais("Brasil");
+         aluno.setEstado("Santa Catarina");
+         aluno.setCep("1654164");
+         aluno.setCpf("1313156");
+         aluno.setNumeroCelular("+55 (47) 5146546");
+         aluno.setDataIngresso("3/02/2025");
+         aluno.setCurso("Medicina");
+         aluno.setNivelEscolar("Ensino medio completo ");
+         aluno.setNumeroMatricula("525146514");
+         aluno.setStatus("Cursando");
+         aluno.setTurno("Matutino ");
+         aluno.setPagamentoCurso("Em dia");
+
+       
+        String mensagem3 = "\nNome: "+aluno.getNome()+
+                          "\nData de Nascimento: "+aluno.getDataNascimento()+
+                          "\nEmail: "+aluno.getTipoPessoa()+
+                          "\nRua: "+aluno.getRua()+
+                          "\nBairro: "+aluno.getBairro()+
+                          "\nPais: "+aluno.getPais()+
+                          "\nEstado: "+aluno.getEstado()+
+                          "\nCep: "+aluno.getCep()+
+                          "\nCpf: "+aluno.getCpf()+
+                          "\nNumero de celular: "+aluno.getNumeroCelular()+
+                          "\nData de ingresso: "+aluno.getDataIngresso()+
+                          "\nCurso: "+aluno.getCurso()+
+                          "\nNivel Escolar: "+aluno.getNivelEscolar()+
+                          "\nNumero da matricula: "+aluno.getNumeroMatricula()+
+                          "\nStatus: "+aluno.getStatus()+
+                          "\nTurno: "+aluno.getTurno()+
+                          "\nPagamento do curso: "+aluno.getPagamentoCurso();
+    
+   
+        System.out.println("Aluno: "+mensagem3);
+         aluno.pessoaFazendo();
+         aluno.vaiFazer();
+         aluno.comoFoi();
 
     
 

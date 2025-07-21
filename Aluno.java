@@ -1,10 +1,10 @@
-/*public class Aluno extends Pessoa{
+public class Aluno extends Pessoa{
     //Atributo
     private String dataIngresso;
     private String curso;
-    private String historicoEscolar;
+    private String nivelEscolar;
     private String numeroMatricula;
-    private Strint status;
+    private String status;
     private String turno;
     private String pagamentoCurso;
 
@@ -16,8 +16,8 @@
     public String getCurso(){
         return curso;
     }
-    public String getHistoricoEscolar(){
-        return historicoEscolar;
+    public String getNivelEscolar(){
+        return nivelEscolar;
     }
     public String getNumeroMatricula(){
         return numeroMatricula;
@@ -36,23 +36,23 @@
     public void setDataIngresso(String dataNascimento){
         this.dataIngresso=dataIngresso;
     }
-    public String getCurso(){
-        return this.curso;
+    public void setCurso(String curso){
+         this.curso=curso;
     }
-    public String getHistoricoEscolar(){
-        return this.historicoEscolar;
+    public void setNivelEscolar(String nivelEscolar){
+       this.nivelEscolar=nivelEscolar;
     }
-    public String getNumeroMatricula(){
-        return this.numeroMatricula;
+    public void setNumeroMatricula(String numeroMatricula){
+        this.numeroMatricula=numeroMatricula;
     }
-    public String getStatus(){
-        return this.status;
+    public void setStatus(String status){
+        this.status=status;
     }
-    public String getTurno(){
-        return this.turno;
+    public void setTurno(String turno){
+        this.turno=turno;
     }
-    public String getPagamentoCurso(){
-        return this.pagamentoCurso;
+    public void setPagamentoCurso(String pagamentoCurso){
+        this.pagamentoCurso=pagamentoCurso;
     }
 
     @Override
@@ -65,7 +65,7 @@
     }
     @Override
     public void comoFoi(){
-    System.out.printl("A aula que o professor deu, foi muito boa");
+    System.out.println("A aula que o professor deu, foi muito boa");
     }
  }
- */
+ 
