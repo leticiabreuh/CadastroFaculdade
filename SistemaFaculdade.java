@@ -1,4 +1,4 @@
-public class SistemaFaculdade
+public class SistemaFaculdade{
     public static void main(String[] args){
 
         /*Pessoa */
@@ -7,9 +7,9 @@ public class SistemaFaculdade
          pessoa.setDataNascimento("07/03/2005");
          pessoa.setEmail("teste@gmail.com");
          pessoa.setTipoPessoa("Aluno/Professor");
-         pessoa.setrRua("Uruguaiana");
+         pessoa.setRua("Uruguaiana");
          pessoa.setBairro("Jardim Iririu");
-         pessoa.setPai("Brasil");
+         pessoa.setPais("Brasil");
          pessoa.setEstado("Santa Catarina");
          pessoa.setCep("1654164");
          pessoa.setCpf(1313156);
@@ -26,9 +26,9 @@ public class SistemaFaculdade
                           "\nBairro: "+pessoa.getBairro()+
                           "\nPais: "+pessoa.getPais()+
                           "\nEstado: "+pessoa.getEstado()+
-                          "\nCep: "pessoa.getCep()+
-                          "\nCpf: "pessoa.getCpf()+
-                          "\nNumero de celular: "pessoa.getNumeroCelular;
+                          "\nCep: "+pessoa.getCep()+
+                          "\nCpf: "+pessoa.getCpf()+
+                          "\nNumero de celular: "+pessoa.getNumeroCelular();
     
     System.out.printl("Pessoa: "+mensagem);
 
@@ -36,3 +36,4 @@ public class SistemaFaculdade
 
 
     }
+}

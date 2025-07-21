@@ -15,38 +15,38 @@ private String numeroCelular;
 //Metodos
 //GET
 public String getNome(){
-    return this.nome;
+    return nome;
 }
 public String getDataNascimento(){
-    return this.dataNascimento;
+    return dataNascimento;
 }
 public String getEmail(){
-    return this.email;
+    return email;
 }
 public String getTipoPessoa(){
-    return this.tipoPessoa;
+    return tipoPessoa;
 }
 
 public String getRua(){
-    return this.rua;
+    return rua;
 }
 public String getBairro(){
-    return this.bairro;
+    return bairro;
 }
 public String getPais(){
-    return this.pais;
+    return pais;
 }
 public String getEstado(){
-    return this.estado;
+    return estado;
 }
 public String getCep(){
-    return this.cep;
+    return cep;
 }
-public String getCpf(){
-    return this.cpf;
+public int getCpf(){
+    return cpf;
 }
 public String getNumeroCelular(){
-    return this.numeroCelular;
+    return numeroCelular;
 }
 
 //SET
@@ -63,7 +63,7 @@ public void setTipoPessoa(String tipoPessoa){
      this.tipoPessoa=pessoa;
 }
 
-public String setRua(String rua){
+public void setRua(String rua){
     this.rua=rua;
 }
 public void  setBairro(String bairro){
@@ -78,7 +78,7 @@ public void setEstado(String estado){
 public void setCep(String cep){
      this.cep=cep;
 }
-public void setCpf(String cpf){
+public void setCpf(int cpf){
     return this.cpf;
 }
 public void setNumeroCelular(String numeroCelular){
