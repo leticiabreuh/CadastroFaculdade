@@ -1,4 +1,4 @@
- /*public class CadastroAluno extends Pessoa{
+/*public class Aluno extends Pessoa{
     //Atributo
     private String dataIngresso;
     private String curso;
@@ -11,7 +11,30 @@
     //Métodos
     //GET
     public String getDataIngresso(){
-        return this.dataIngresso;
+        return dataIngresso;
+    }
+    public String getCurso(){
+        return curso;
+    }
+    public String getHistoricoEscolar(){
+        return historicoEscolar;
+    }
+    public String getNumeroMatricula(){
+        return numeroMatricula;
+    }
+    public String getStatus(){
+        return status;
+    }
+    public String getTurno(){
+        return turno;
+    }
+    public String getPagamentoCurso(){
+        return pagamentoCurso;
+    }
+    
+    //SET
+    public void setDataIngresso(String dataNascimento){
+        this.dataIngresso=dataIngresso;
     }
     public String getCurso(){
         return this.curso;
@@ -29,10 +52,10 @@
         return this.turno;
     }
     public String getPagamentoCurso(){
-        returnthis.pagamentoCurso;
+        return this.pagamentoCurso;
     }
 
-@Override
+    @Override
     public void pessoaFazendo(){
     System.out.println("Estou na aula da faculdade");
     }

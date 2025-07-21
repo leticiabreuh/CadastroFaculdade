@@ -52,8 +52,9 @@ public class SistemaFaculdade{
          professor.setCep("1654164");
          professor.setCpf("1313156");
          professor.setNumeroCelular("+55 (47) 5146546");
-
-      
+         professor.setFormacaoAcademica(" ");
+         professor.setExperienciaProfissional(" ");
+         professor.setAreaAtuacao(" ");
 
         
 
@@ -66,7 +67,10 @@ public class SistemaFaculdade{
                           "\nEstado: "+professor.getEstado()+
                           "\nCep: "+professor.getCep()+
                           "\nCpf: "+professor.getCpf()+
-                          "\nNumero de celular: "+professor.getNumeroCelular();
+                          "\nNumero de celular: "+professor.getNumeroCelular()+
+                          "\nFormacao academica: "+professor.getFormacaoAcademica()+
+                          "\nExperiencia: "+professor.getExperienciaProfissional()+
+                          "\nArea de atuacao: "+professor.getAreaAtuacao();
     
    
         System.out.println("Professor: "+mensagem2);
